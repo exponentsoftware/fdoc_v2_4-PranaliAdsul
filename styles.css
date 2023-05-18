@@ -106,6 +106,56 @@ nav ul li.active::after {
   .search-button:hover {
     background-color: #555555;
   }
+  /* Main content styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
   
-   
+  .content {
+    flex: 2;
+    margin-right: 10px;
+  }
+  
+  .blog-post {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .blog-post:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post img {
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .post-details h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .publication-date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #555;
+  }
+  
+  
   
