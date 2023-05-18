@@ -165,8 +165,8 @@ main {
   }
   
   .about-me h3 {
-    font-size: 20px;
-    margin: 0 0 10px;
+    font-size: 30px;
+    margin: 20px;
     color: #333;
   }
   
@@ -175,6 +175,14 @@ main {
     line-height: 1.4;
     font-size: 17px;
   }
-  
-   
+  /* Responsive Styles */
+  .sidebar {
+    flex: 0;
+    margin-top: 40px;
+    font-size: 28px;
+    margin: 10px;
+  }
+  .social-links li a i {
+  font-size: 30px; 
+}
   
